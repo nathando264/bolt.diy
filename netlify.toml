@@ -1,0 +1,8 @@
+[build]
+  command   = "npm install && npm run build"
+  publish   = "build/client"
+
+[build.environment]
+  # Ví dụ đặt biến môi trường
+  NODE_VERSION = "18.18.0"
+  # Các API key khác: e.g. OPENAI_API_KEY, ANTHROPIC_API_KEY…
